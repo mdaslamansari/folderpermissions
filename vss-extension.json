@@ -1,0 +1,71 @@
+{
+    "manifestVersion": 1,
+    "id": "FolderPermissions",
+    "name": "Folder Permissions",
+    "version": "2.0.1",
+    "publisher": "mohdaslamansari",
+	"public": true,
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Tool for adding permissions to the given folder.",
+    "categories": [
+        "Build and release"
+    ],
+	"tags": [
+        "Folder Permissions"       
+    ],
+	"branding": {
+        "color": "rgb(34, 34, 34)",
+        "theme": "dark"
+    },
+	"content": {
+        "details": {
+            "path": "readme.md"
+        }
+      },
+	   "links": {
+	    "repository": {
+            "uri": "https://github.com/mdaslamansari/folderpermissions"
+        },
+        "support": {
+            "uri": "https://mdaslam.wordpress.com/"
+        }		
+    },
+	"repository": {
+        "type": "git",
+        "uri": "https://github.com/mdaslamansari/folderpermissions"
+    },
+	"screenshots": [
+        {
+            "path": "screenshots/screen.png"
+        }
+    ],
+    "icons": {
+        "default": "images/icon1.png"        
+    },
+    "files": [
+        {
+            "path": "buildtask",
+			"addressable": true
+        },
+	 { 
+         "path": "images", 
+         "addressable": true 
+       } 
+    ],
+	"contributions": [
+        {
+            "id": "custom-build-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "buildtask"
+            }
+        }
+    ]
+}
