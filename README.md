@@ -8,9 +8,10 @@ Solution:
 	1) Server Name 
 	2) Admin Account on the server
 	3) Admin Password
-	4) List of folders
-	5) List of Users
-	6) Type of Rights
+	4) HTTP or HTTPS
+	5) List of folders
+	6) List of Users
+	7) Type of Rights
 	
 On successful execution, it will provide the requested rights to the users on the given Folders.
 
